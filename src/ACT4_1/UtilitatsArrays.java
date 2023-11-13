@@ -145,5 +145,48 @@ public class UtilitatsArrays {
         System.out.println(']');
         System.out.println();
     }
+    
+    /**
+     * sumar elementos de un array
+     * 
+     * @param valors
+     */
+    public static void sumarArray(int[] valors) {
+        int suma = 0;
+        for (int i = 0; i < valors.length; i++) {
+            suma = suma + valors[i];
+        }
+        System.out.println(suma);
+    }
 
+    
+    /**
+     * hacer media de valores de un array
+     * @param valors
+     */
+    
+    public static float mitjanaArray(int[] valors) {
+        int suma = 0;
+        int total = valors.length;
+        for (int i = 0; i < valors.length; i++) {
+            suma += valors[i];
+        }
+        return (float) suma / (float)total;        
+    }
+    
+    /**
+     * crear arrays de valores aleatorios con un maximo y minimo predeterminados
+     * @param valors
+     */
+    
+    public static int[] generaArray(int longitud, int minim, int maxim) {
+        int [] array = new int[longitud];
+        
+        for (int i = 0; i < array.length; i++) {
+            array[i] = minim + (int) (Math.random() * (maxim - minim + 1));
+        }
+        return array;
+    }
+    
+    
 }
