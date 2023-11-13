@@ -9,5 +9,7 @@ package ACT4_1;
  * @author alumnat
  */
 public class ACT4_1_5 {
-    
+    public static void main(String args[]) {
+        
+    }
 }

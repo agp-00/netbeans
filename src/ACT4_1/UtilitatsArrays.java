@@ -188,5 +188,21 @@ public class UtilitatsArrays {
         return array;
     }
     
+    /**
+     * comparar dos arrays
+     * @param array1
+     * @param array2
+     * @return 
+     */
+    public static boolean compararArrays(int[] array1, int[] array2) {
+        boolean comparacion = true;
+        for (int i = 0; i < array1.length;i++) {
+            for (int j = 0; j < array2.length; i++) {
+                if {
+                    array1[i] == array2[2]
+                            }
+            }
+    }
+    }
     
 }
