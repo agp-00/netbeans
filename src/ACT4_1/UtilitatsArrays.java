@@ -114,7 +114,7 @@ public class UtilitatsArrays {
 
     /**
      * Mostra l'array de double que rep com a paràmetre per pantalla
-     *
+     *aaa
      * @param valors L'array que conté els valors que volem mostrar per pantalla.
      */
     public static void mostraArray(double[] valors) {
