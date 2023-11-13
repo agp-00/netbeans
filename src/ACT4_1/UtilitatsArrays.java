@@ -196,13 +196,17 @@ public class UtilitatsArrays {
      */
     public static boolean compararArrays(int[] array1, int[] array2) {
         boolean comparacion = true;
+        if (array1.length != array2.length) {
+            comparacion = false;
+        }
         for (int i = 0; i < array1.length;i++) {
-            for (int j = 0; j < array2.length; i++) {
-                if {
-                    array1[i] == array2[2]
-                            }
+            if (array1[i] == array2[i]) {
+                comparacion = true;                
+            } else {
+                comparacion = false;
             }
-    }
+        }
+        return comparacion;
     }
     
 }
