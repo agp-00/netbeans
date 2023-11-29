@@ -188,6 +188,28 @@ public class UtilitatsArrays {
         return array;
     }
     
+        /**
+     * crear arrays de valores aleatorios con un maximo y minimo predeterminados
+     */
+    
+    public static int[] generaArrayFibonacci(int longitud) {
+        int [] array = new int[longitud];
+        
+        for (int i = 0; i < array.length; i++) {
+            switch (i) {
+                case 0:
+                    array[i] = 0;
+                    break;
+                case 1:
+                    array[i] = 1;
+                    break;
+                default:
+                    i = array[i-2] + array[i-1];
+            }
+        }
+        return array;
+    }
+    
     /**
      * comparar dos arrays
      * @param array1
